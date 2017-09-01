@@ -1,0 +1,507 @@
+20170803                        20170806
++--------+-------------+        +--------+-------------+
+|inner_id|inner_eng_ame|        |inner_id|inner_eng_ame|
++--------+-------------+        +--------+-------------+
+|       0|        other|        |       0|        other|
+|       1|       sports|        |       1|       sports|
+|       2|         tech|        |       2|         tech|
+|       3|          ent|        |       3|          ent|
+|       4|         auto|        |       4|         auto|
+|       5|        women|        |       5|        women|
+|       6|        astro|        |       6|        astro|
+|       7|        house|        |       7|        house|
+|       8|      digital|        |       8|      digital|
+|       9|      finance|        |       9|      finance|
+|      10|         game|        |      10|         game|
+|      11|          mil|        |      11|          mil|
+|      12|       social|        |      12|       social|
+|      13|          cul|        |      13|          cul|
+|      14|     politics|        |      14|     politics|
+|      15|         baby|        |      15|         baby|
+|      16|          edu|        |      16|          edu|
+|      17|         food|        |      17|         food|
+|      18|        funny|        |      18|        funny|
+|      19|     religion|        |      19|     religion|
+|      20|       health|        |      20|       health|
+|      21|       travel|        |      21|       travel|
+|      22|        world|        |      22|        world|
+|      23|          pet|        |      23|          pet|
+|      24|  inspiration|        |      24|  inspiration|
+|      26|          gif|        |      26|          gif|
+|      27|        video|        |      27|        video|
+|      28|      weather|        |      28|      weather|
+|      29|      history|        |      29|      history|
+|      30|      emotion|        |      30|      emotion|
+|      31|      picture|        |      31|      picture|
+|      32|       beauty|        |      32|       beauty|
+|      33|        comic|        |      33|        comic|
+|      34|          job|        |      34|          job|
+|      35|       abroad|        |      35|       abroad|
+|      36|  agriculture|        |      36|  agriculture|
+|      37|   creativity|        |      37|   creativity|
+|      38|  houseliving|        |      38|  houseliving|
+|      39|          law|        |      39|          law|
+|      40|    lifestyle|        |      40|    lifestyle|
+|      41|      lottery|        |      41|      lottery|
+|      42|      science|        |      42|      science|
+|      43|  photography|        |      43|  photography|
+|      44|       career|        |      44|       career|
+|      45|         life|        |      45|         life|
+|      46|      wedding|        |      46|      wedding|
+|      47|         qipa|        |      47|         qipa|
+|      48|     hardcore|        |      48|     hardcore|
+|      49|        ghost|        |      49|        ghost|
+|      50|        meitu|        |      50|        meitu|
+|     100|   basketball|        |     100|   basketball|
+|     101|     football|        |     101|     football|
++--------+-------------+        +--------+-------------+
+
++--------+--------------------+ +--------+--------------------+
+|inner_id|            eng_name| |inner_id|            eng_name|
++--------+--------------------+ +--------+--------------------+
+|     101|           athletics| |     101|           athletics|
+|     102|            badmiton| |     102|            badmiton|
+|     103|          basketball| |     103|          basketball|
+|     104|               chess| |     104|               chess|
+|     105|            pingpang| |     105|            pingpang|
+|     106|            swimming| |     106|            swimming|
+|     107|              tennis| |     107|              tennis|
+|     108|          volleyball| |     108|          volleyball|
+|     109|          sports_cba| |     109|          sports_cba|
+|     110|          sports_nba| |     110|          sports_nba|
+|     111|         sports_boji| |     111|         sports_boji|
+|     112|        sports_dejia| |     112|        sports_dejia|
+|     113|                golf| |     113|                golf|
+|     114|      sports_outdoor| |     114|      sports_outdoor|
+|     114| sports_huwaiyundong| |     114| sports_huwaiyundong|
+|     115|             fitness| |     115|             fitness|
+|     116|        sports_paobu| |     116|        sports_paobu|
+|     117|       sports_saiche| |     117|       sports_saiche|
+|     118|       sports_taiqiu| |     118|       sports_taiqiu|
+|     119|        sports_xijia| |     119|        sports_xijia|
+|     120|        sports_yijia| |     120|        sports_yijia|
+|     121|     sports_yingchao| |     121|     sports_yingchao|
+|     122|    sports_zhongchao| |     122|    sports_zhongchao|
+|     123|            football| |     123|            football|
+|     124|          sports_ski| |     124|          sports_ski|
+|     125|sports_zhongguozuqiu| |     125|sports_zhongguozuqiu|
+|     126|       sports_gossip| |     126|       sports_gossip|
+|     127|       sports_baobei| |     127|       sports_baobei|
+|     128|         sports_bike| |     128|         sports_bike|
+|     129|              huashi| |     129|              huashi|
+|     130|     zhongguoxiangqi| |     130|     zhongguoxiangqi|
+|     131|               weiqi| |     131|               weiqi|
+|     132|              ouguan| |     132|              ouguan|
+|     133|          dezhoupuke| |     133|          dezhoupuke|
+|     134|             qiaopai| |     134|             qiaopai|
+|     201|            internet| |     201|            internet|
+|     202|         intelligent| |     202|         intelligent|
+|     203|     networksecurity| |     203|     networksecurity|
+|     204|               phone| |     204|               phone|
+|     205|            software| |     205|            software|
+|     206|             science| |     206|             science|
+|     207|             tech_vr| |     207|             tech_vr|
+|     208|      tech_artifical| |     208|      tech_artifical|
+|     209|  tech_communication| |     209|  tech_communication|
+|     210|         tech_famous| |     210|         tech_famous|
+|     211|            tech_iot| |     211|            tech_iot|
+|     212|       tech_megadata| |     212|       tech_megadata|
+|     213|            tech_o2o| |     213|            tech_o2o|
+|     214|         tech_retail| |     214|         tech_retail|
+|     215|            tech_sns| |     215|            tech_sns|
+|     216|            tech_uav| |     216|            tech_uav|
+|     217|        tech_venture| |     217|        tech_venture|
+|     218|            tech_yun| |     218|            tech_yun|
+|     219|     tech_investment| |     219|     tech_investment|
+|     220|     tech_programmer| |     220|     tech_programmer|
+|     221|        tech_product| |     221|        tech_product|
+|     222|      tech_autopilot| |     222|      tech_autopilot|
+|     223|             tech_3d| |     223|             tech_3d|
+|     301|                film| |     224|            tech_hkj|
+|     302|              tvplay| |     301|                film|
+|     303|                show| |     302|              tvplay|
+|     304|               drama| |     303|                show|
+|     305|               music| |     304|               drama|
+|     306|                star| |     305|               music|
+|     307|           ent_hanyu| |     306|                star|
+|     308|        ent_hongkong| |     307|           ent_hanyu|
+|     309|          ent_janpan| |     308|        ent_hongkong|
+|     310|         ent_western| |     309|          ent_janpan|
+|     311|      ent_americantv| |     310|         ent_western|
+|     312|           ent_china| |     311|      ent_americantv|
+|     313|       ent_englishtv| |     312|           ent_china|
+|     314|            ent_quyi| |     313|       ent_englishtv|
+|     315|        ent_talkshow| |     314|            ent_quyi|
+|     316|      ent_xiangsheng| |     315|        ent_talkshow|
+|     317|        ent_xiaoping| |     316|      ent_xiangsheng|
+|     318|            star_all| |     317|        ent_xiaoping|
+|     401|        auto_yongche| |     318|            star_all|
+|     402|         auto_ceping| |     401|        auto_yongche|
+|     403|         auto_chanye| |     402|         auto_ceping|
+|     404|         auto_daogou| |     403|         auto_chanye|
+|     405|    auto_diandongche| |     404|         auto_daogou|
+|     406|         auto_xinche| |     405|    auto_diandongche|
+|     407|       auto_takecare| |     406|         auto_xinche|
+|     408|            auto_suv| |     407|       auto_takecare|
+|     409|     auto_secondhand| |     408|            auto_suv|
+|     410|          auto_refit| |     409|     auto_secondhand|
+|     411|         auto_skills| |     410|          auto_refit|
+|     412|          auto_weird| |     411|         auto_skills|
+|     413|           auto_tags| |     412|          auto_weird|
+|     501|         women_meiti| |     413|           auto_tags|
+|     502|        women_zhubao| |     501|         women_meiti|
+|     503|     women_shizhuang| |     502|        women_zhubao|
+|     504|          women_hair| |     503|     women_shizhuang|
+|     505|        women_luxury| |     504|          women_hair|
+|     506|       women_wanbiao| |     505|        women_luxury|
+|     507|        women_makeup| |     506|       women_wanbiao|
+|     508|      women_skincare| |     507|        women_makeup|
+|     509|        women_beauty| |     508|      women_skincare|
+|     510|           women_man| |     509|        women_beauty|
+|     511|        women_tattoo| |     510|           women_man|
+|     520| women_makeup_meimao| |     511|        women_tattoo|
+|     521|women_makeup_yanz...| |     520| women_makeup_meimao|
+|     522|women_makeup_chun...| |     521|women_makeup_yanz...|
+|     523|women_makeup_lian...| |     522|women_makeup_chun...|
+|     524|women_skincare_qi...| |     523|women_makeup_lian...|
+|     525|women_skincare_xiufu| |     524|women_skincare_qi...|
+|     526| women_skincare_bsbs| |     525|women_skincare_xiufu|
+|     527|women_skincare_fa...| |     526| women_skincare_bsbs|
+|     528|  women_meiti_meijia| |     527|women_skincare_fa...|
+|     529|   women_meiti_meifa| |     528|  women_meiti_meijia|
+|     530|women_meiti_xiang...| |     529|   women_meiti_meifa|
+|     531|    women_meiti_sssx| |     530|women_meiti_xiang...|
+|     532|women_shizhuang_dpmj| |     531|    women_meiti_sssx|
+|     533|women_shizhuang_cljp| |     532|women_shizhuang_dpmj|
+|     601|     astro_shengxiao| |     533|women_shizhuang_cljp|
+|     602|        astro_mingli| |     601|     astro_shengxiao|
+|     603|       astro_psytest| |     602|        astro_mingli|
+|     604|       astro_xingzuo| |     603|       astro_psytest|
+|     605|      astro_fengshui| |     604|       astro_xingzuo|
+|     701|  house_chuweidianqi| |     605|      astro_fengshui|
+|     702|   house_duorouzhiwu| |     701|  house_chuweidianqi|
+|     703|      house_fengshui| |     702|   house_duorouzhiwu|
+|     704|         house_jiaju| |     703|      house_fengshui|
+|     705|     house_zhuangxiu| |     704|         house_jiaju|
+|     706|         house_lease| |     705|     house_zhuangxiu|
+|     707|       house_oversea| |     706|         house_lease|
+|     708|            house_pm| |     707|       house_oversea|
+|     709|          house_sell| |     708|            house_pm|
+|     801|       digital_phone| |     709|          house_sell|
+|     802|    digital_hardware| |     801|       digital_phone|
+|     803|    digital_industry| |     802|    digital_hardware|
+|     804|      digital_iphone| |     803|    digital_industry|
+|     805|        digital_chip| |     804|      digital_iphone|
+|     806|digital_chuandais...| |     805|        digital_chip|
+|     807|     digital_jiadian| |     806|digital_chuandais...|
+|     808|       digital_kuwan| |     807|     digital_jiadian|
+|     809|         digital_pad| |     808|       digital_kuwan|
+|     810|          digital_pc| |     809|         digital_pad|
+|     811|          digital_tv| |     810|          digital_pc|
+|     901|                bank| |     811|          digital_tv|
+|     902|                bond| |     901|                bank|
+|     903|         frgexchange| |     902|                bond|
+|     904|                fund| |     903|         frgexchange|
+|     905|             futures| |     904|                fund|
+|     906|           insurance| |     905|             futures|
+|     907|        interfinance| |     906|           insurance|
+|     908|         inverstment| |     907|        interfinance|
+|     909|            macroeco| |     908|         inverstment|
+|     910|            mngmoney| |     909|            macroeco|
+|     911|               stock| |     910|            mngmoney|
+|     912|         finance_bit| |     911|               stock|
+|     913|    finance_business| |     912|         finance_bit|
+|     914| finance_corporation| |     913|    finance_business|
+|     915|      finance_famous| |     914| finance_corporation|
+|     916| finance_internation| |     915|      finance_famous|
+|     917|      finance_xintuo| |     916| finance_internation|
+|     918|      finance_energy| |     917|      finance_xintuo|
+|     919|       finance_metal| |     918|      finance_energy|
+|     920|     finance_hkstock| |     919|       finance_metal|
+|     921|     finance_usstock| |     920|     finance_hkstock|
+|     922|         stock_share| |     921|     finance_usstock|
+|     923|         stock_marco| |     922|         stock_share|
+|     924|    chemical_futures| |     923|         stock_marco|
+|     925|      energy_futures| |     924|    chemical_futures|
+|     926|agricultural_futures| |     925|      energy_futures|
+|     927|        stock_market| |     926|agricultural_futures|
+|     928|       metal_futures| |     927|        stock_market|
+|     929|         stock_index| |     928|       metal_futures|
+|    1001|       game_dianjing| |     929|         stock_index|
+|    1002|       game_industry| |    1001|       game_dianjing|
+|    1003|        game_pandian| |    1002|       game_industry|
+|    1004|        game_shouyou| |    1003|        game_pandian|
+|    1005|        game_wangyou| |    1004|        game_shouyou|
+|    1006|        game_youxiji| |    1005|        game_wangyou|
+|    1007|        game_esports| |    1006|        game_youxiji|
+|    1008|         game_baoxue| |    1007|        game_esports|
+|    1009|             game_cf| |    1008|         game_baoxue|
+|    1010|   game_dianjing_ent| |    1009|             game_cf|
+|    1011|  game_dianjing_info| |    1010|   game_dianjing_ent|
+|    1012|            game_dnf| |    1011|  game_dianjing_info|
+|    1013|        game_lol_ent| |    1012|            game_dnf|
+|    1014|    game_lol_gonglue| |    1013|        game_lol_ent|
+|    1015|    game_lol_neirong| |    1014|    game_lol_gonglue|
+|    1016|  game_lol_yingxiong| |    1015|    game_lol_neirong|
+|    1017|       game_wzry_ent| |    1016|  game_lol_yingxiong|
+|    1018|   game_wzry_gonglue| |    1017|       game_wzry_ent|
+|    1019|   game_wzry_neirong| |    1018|   game_wzry_gonglue|
+|    1020| game_wzry_yxpandian| |    1019|   game_wzry_neirong|
+|    1021|    game_yingyangshi| |    1020| game_wzry_yxpandian|
+|    1022|          game_zhubo| |    1021|    game_yingyangshi|
+|    1023|           game_tags| |    1022|          game_zhubo|
+|    1024|        game_wangzhe| |    1023|           game_tags|
+|    1101| mil_zhongguojunqing| |    1024|        game_wangzhe|
+|    1102|mil_hangkonghangtian| |    1101| mil_zhongguojunqing|
+|    1103|             mil_war| |    1102|mil_hangkonghangtian|
+|    1104|          mil_weapon| |    1103|             mil_war|
+|    1105|     mil_internation| |    1104|          mil_weapon|
+|    1106|  mil_changguidaodan| |    1105|     mil_internation|
+|    1107|          mil_hangmu| |    1106|  mil_changguidaodan|
+|    1108|        mil_hedaodan| |    1107|          mil_hangmu|
+|    1109|       mil_hongzhaji| |    1108|        mil_hedaodan|
+|    1110|        mil_jianting| |    1109|       mil_hongzhaji|
+|    1111|        mil_qianting| |    1110|        mil_jianting|
+|    1112|        mil_yunshuji| |    1111|        mil_qianting|
+|    1113|       mil_zhandouji| |    1112|        mil_yunshuji|
+|    1114|      mil_zhishengji| |    1113|       mil_zhandouji|
+|    1201|  social_qiwendieshi| |    1114|      mil_zhishengji|
+|    1202| social_shipinanquan| |    1201|  social_qiwendieshi|
+|    1203| social_jihuashengyu| |    1202| social_shipinanquan|
+|    1204|social_huanjingbaohu| |    1203| social_jihuashengyu|
+|    1205|    social_community| |    1204|social_huanjingbaohu|
+|    1206|    social_mingsheng| |    1205|    social_community|
+|    1207|       social_cishan| |    1206|    social_mingsheng|
+|    1208|      social_offense| |    1207|       social_cishan|
+|    1209|      social_traffic| |    1208|      social_offense|
+|    1210|        worldsociety| |    1209|      social_traffic|
+|    1211|             traffic| |    1210|        worldsociety|
+|    1301|           cul_dushu| |    1211|             traffic|
+|    1302|           cul_wenwu| |    1301|           cul_dushu|
+|    1303|         cul_sheying| |    1302|           cul_wenwu|
+|    1304|           cul_yishu| |    1303|         cul_sheying|
+|    1305|        cul_building| |    1304|           cul_yishu|
+|    1306|         cul_collect| |    1305|        cul_building|
+|    1307|        cul_painting| |    1306|         cul_collect|
+|    1308|           cul_shufa| |    1307|        cul_painting|
+|    1309|           cul_magic| |    1308|           cul_shufa|
+|    1310|      cul_instrument| |    1309|           cul_magic|
+|    1311|          cul_wenxue| |    1310|      cul_instrument|
+|    1312|          cul_guoxue| |    1311|          cul_wenxue|
+|    1313|           cul_minsu| |    1312|          cul_guoxue|
+|    1314|           cul_shige| |    1313|           cul_minsu|
+|    1315|      cul_shougongyi| |    1314|           cul_shige|
+|    1316|      cul_philosophy| |    1315|      cul_shougongyi|
+|    1401|politics_internat...| |    1316|      cul_philosophy|
+|    1402|   politics_domestic| |    1401|politics_internat...|
+|    1501|        baby_yunchan| |    1402|   politics_domestic|
+|    1502|baby_qinzichengchang| |    1501|        baby_yunchan|
+|    1503|         baby_autism| |    1502|baby_qinzichengchang|
+|    1504|        baby_prepare| |    1503|         baby_autism|
+|    1505|      baby_postnatal| |    1504|        baby_prepare|
+|    1506|          baby_weird| |    1505|      baby_postnatal|
+|    1601|          edu_abroad| |    1506|          baby_weird|
+|    1602|         edu_college| |    1601|          edu_abroad|
+|    1603|         edu_primary| |    1602|         edu_college|
+|    1604|          edu_skills| |    1603|         edu_primary|
+|    1605|          edu_gaokao| |    1604|          edu_skills|
+|    1606|          edu_kaoyan| |    1605|          edu_gaokao|
+|    1607|      edu_gongwuyuan| |    1606|          edu_kaoyan|
+|    1608|         edu_english| |    1607|      edu_gongwuyuan|
+|    1609|            edu_gmat| |    1608|         edu_english|
+|    1610|           edu_ielts| |    1609|            edu_gmat|
+|    1611|             edu_sat| |    1610|           edu_ielts|
+|    1612|             edu_gre| |    1611|             edu_sat|
+|    1613|             edu_mba| |    1612|             edu_gre|
+|    1614|     edu_accountexam| |    1613|             edu_mba|
+|    1615|         edu_lawexam| |    1614|     edu_accountexam|
+|    1616|          edu_online| |    1615|         edu_lawexam|
+|    1617|         edu_oversea| |    1616|          edu_online|
+|    1618|           edu_toelf| |    1617|         edu_oversea|
+|    1619|          edu_junior| |    1618|           edu_toelf|
+|    1620|           edu_weird| |    1619|          edu_junior|
+|    1701|       food_zhongcan| |    1620|           edu_weird|
+|    1702|          food_caipu| |    1701|       food_zhongcan|
+|    1703|    food_ribenliaoli| |    1702|          food_caipu|
+|    1704|          food_guide| |    1703|    food_ribenliaoli|
+|    1705|  food_pengrenjiqiao| |    1704|          food_guide|
+|    1706|        food_xiaochi| |    1705|  food_pengrenjiqiao|
+|    1707|food_drink_alcoho...| |    1706|        food_xiaochi|
+|    1708|          food_fruit| |    1707|food_drink_alcoho...|
+|    1709|food_cuisine_zhej...| |    1708|          food_fruit|
+|    1710|       food_material| |    1709|food_cuisine_zhej...|
+|    1711|        food_dessert| |    1710|       food_material|
+|    1712| food_cuisine_fujian| |    1711|        food_dessert|
+|    1713| food_cuisine_shanxi| |    1712| food_cuisine_fujian|
+|    1714|     food_restaurant| |    1713| food_cuisine_shanxi|
+|    1715|   food_foreign_asia| |    1714|     food_restaurant|
+|    1716|        food_cuisine| |    1715|   food_foreign_asia|
+|    1717|food_drink_alcoho...| |    1716|        food_cuisine|
+|    1718|food_cuisine_beijing| |    1717|food_drink_alcoho...|
+|    1719|food_cuisine_jiangsu| |    1718|food_cuisine_beijing|
+|    1720|food_drink_alcoho...| |    1719|food_cuisine_jiangsu|
+|    1721|  food_foreign_italy| |    1720|food_drink_alcoho...|
+|    1722|food_cuisine_dongbei| |    1721|  food_foreign_italy|
+|    1723|          food_story| |    1722|food_cuisine_dongbei|
+|    1724|food_cuisine_qing...| |    1723|          food_story|
+|    1725|food_drink_alcoho...| |    1724|food_cuisine_qing...|
+|    1726|  food_cuisine_henan| |    1725|food_drink_alcoho...|
+|    1727|food_cuisine_guan...| |    1726|  food_cuisine_henan|
+|    1728|  food_cuisine_hebei| |    1727|food_cuisine_guan...|
+|    1729|           food_idea| |    1728|  food_cuisine_hebei|
+|    1730|        food_lingshi| |    1729|           food_idea|
+|    1731|         food_palace| |    1730|        food_lingshi|
+|    1732|    food_foreign_usa| |    1731|         food_palace|
+|    1733|food_cuisine_xizhang| |    1732|    food_foreign_usa|
+|    1734|food_cuisine_shan...| |    1733|food_cuisine_xizhang|
+|    1735| food_foreign_mexico| |    1734|food_cuisine_shan...|
+|    1736|  food_cuisine_hunan| |    1735| food_foreign_mexico|
+|    1737|food_cuisine_shan...| |    1736|  food_cuisine_hunan|
+|    1738|  food_cuisine_hubei| |    1737|food_cuisine_shan...|
+|    1739| food_cuisine_yungui| |    1738|  food_cuisine_hubei|
+|    1740|        food_foreign| |    1739| food_cuisine_yungui|
+|    1741| food_cuisine_hainan| |    1740|        food_foreign|
+|    1742|  food_cuisine_anhui| |    1741| food_cuisine_hainan|
+|    1743|  food_drink_alcohol| |    1742|  food_cuisine_anhui|
+|    1744|  food_cuisine_xibei| |    1743|  food_drink_alcohol|
+|    1745|food_drink_alcoho...| |    1744|  food_cuisine_xibei|
+|    1746|         food_homely| |    1745|food_drink_alcoho...|
+|    1747|food_drink_alcoho...| |    1746|         food_homely|
+|    1748| food_cuisine_sicuan| |    1747|food_drink_alcoho...|
+|    1749|food_cuisine_jiangxi| |    1748| food_cuisine_sicuan|
+|    1750|         food_coffee| |    1749|food_cuisine_jiangxi|
+|    1751| food_foreign_france| |    1750|         food_coffee|
+|    1752|food_cuisine_gangtai| |    1751| food_foreign_france|
+|    1753|  food_foreign_korea| |    1752|food_cuisine_gangtai|
+|    1801|           funny_pic| |    1753|  food_foreign_korea|
+|    1802|         funny_story| |    1801|           funny_pic|
+|    1901|   religion_buddhism| |    1802|         funny_story|
+|    1902|  religion_christian| |    1901|   religion_buddhism|
+|    2001|      health_jianfei| |    1902|  religion_christian|
+|    2002|    health_yangsheng| |    2001|      health_jianfei|
+|    2003|      health_zhongyi| |    2002|    health_yangsheng|
+|    2004| health_kouqianghuli| |    2003|      health_zhongyi|
+|    2005|         health_fuke| |    2004| health_kouqianghuli|
+|    2006|      health_aizheng| |    2005|         health_fuke|
+|    2007|health_shipinganquan| |    2006|      health_aizheng|
+|    2008| health_chuanranbing| |    2007|health_shipinganquan|
+|    2009|     health_pifubing| |    2008| health_chuanranbing|
+|    2010|   health_psychology| |    2009|     health_pifubing|
+|    2011|      health_control| |    2010|   health_psychology|
+|    2012|          health_old| |    2011|      health_control|
+|    2013|          health_sex| |    2012|          health_old|
+|    2014|          health_man| |    2013|          health_sex|
+|    2015|        health_woman| |    2014|          health_man|
+|    2016|         health_care| |    2015|        health_woman|
+|    2017|         health_baby| |    2016|         health_care|
+|    2018|     health_products| |    2017|         health_baby|
+|    2019|         health_food| |    2018|     health_products|
+|    2020|    health_nutrition| |    2019|         health_food|
+|    2021|  health_zyyangsheng| |    2020|    health_nutrition|
+|    2101|       travel_africa| |    2021|  health_zyyangsheng|
+|    2102|      travel_america| |    2101|       travel_africa|
+|    2103|     travel_demostic| |    2102|      travel_america|
+|    2104|       travel_europa| |    2103|     travel_demostic|
+|    2105|           travel_hm| |    2104|       travel_europa|
+|    2106|  travel_information| |    2105|           travel_hm|
+|    2107|           travel_jk| |    2106|  travel_information|
+|    2108|travel_soucheastasia| |    2107|           travel_jk|
+|    2109|    travel_australia| |    2108|travel_soucheastasia|
+|    2110|          travel_car| |    2109|    travel_australia|
+|    2111|         travel_line| |    2110|          travel_car|
+|    2112|        travel_korea| |    2111|         travel_line|
+|    2113|travel_south_america| |    2112|        travel_korea|
+|    2114|        travel_tours| |    2113|travel_south_america|
+|    2115|travel_north_america| |    2114|        travel_tours|
+|    2116|travel_southeast_...| |    2115|travel_north_america|
+|    2117|  travel_middle_east| |    2116|travel_southeast_...|
+|    2301|           pet_weird| |    2117|  travel_middle_east|
+|    2901|history_kangrizha...| |    2301|           pet_weird|
+|    2902|     history_ancient| |    2901|history_kangrizha...|
+|    2903|    history_mingqing| |    2902|     history_ancient|
+|    2904|      history_minguo| |    2903|    history_mingqing|
+|    2905|       history_party| |    2904|      history_minguo|
+|    2906|       history_wenge| |    2905|       history_party|
+|    2907|     history_zhiqing| |    2906|       history_wenge|
+|    2908|history_gaigekaifang| |    2907|     history_zhiqing|
+|    2909|       history_world| |    2908|history_gaigekaifang|
+|    2910|         history_wwi| |    2909|       history_world|
+|    2911|        history_wwii| |    2910|         history_wwi|
+|    2912|history_jianguochuqi| |    2911|        history_wwii|
+|    2913|history_kangmeiyu...| |    2912|history_jianguochuqi|
+|    2914|     history_yuanyue| |    2913|history_kangmeiyu...|
+|    2915| history_sanfanwufan| |    2914|     history_yuanyue|
+|    2916|     history_foreign| |    2915| history_sanfanwufan|
+|    2917|     history_jinxian| |    2916|     history_foreign|
+|    3001|      emotion_inlove| |    2917|     history_jinxian|
+|    3002|    emotion_marriage| |    3001|      emotion_inlove|
+|    3003|      emotion_affair| |    3002|    emotion_marriage|
+|    3004|         emotion_gay| |    3003|      emotion_affair|
+|    3301|       comic_cosplay| |    3004|         emotion_gay|
+|    3302|          comic_info| |    3301|       comic_cosplay|
+|    3303|comic_dongmanpandian| |    3302|          comic_info|
+|    3304| comic_dongmanxuanfa| |    3303|comic_dongmanpandian|
+|    3305| comic_gaoxiaomanhua| |    3304| comic_dongmanxuanfa|
+|    3306|    comic_haizeiwang| |    3305| comic_gaoxiaomanhua|
+|    3307| comic_huoyingrenzhe| |    3306|    comic_haizeiwang|
+|    3308|         comic_kenan| |    3307| comic_huoyingrenzhe|
+|    3309|  comic_kongbumanhua| |    3308|         comic_kenan|
+|    3310| comic_lianzaimanhua| |    3309|  comic_kongbumanhua|
+|    3311|       comic_longzhu| |    3310| comic_lianzaimanhua|
+|    3312|comic_nannvshengm...| |    3311|       comic_longzhu|
+|    3313|  comic_neihanmanhua| |    3312|comic_nannvshengm...|
+|    3314|   comic_othermanhua| |    3313|  comic_neihanmanhua|
+|    3315|    comic_seximanhua| |    3314|   comic_othermanhua|
+|    3316|      comic_shengyou| |    3315|    comic_seximanhua|
+|    3317|    comic_wuyemanhua| |    3316|      comic_shengyou|
+|    3318|    comic_xieemanhua| |    3317|    comic_wuyemanhua|
+|    3319|  comic_xuanyimanhua| |    3318|    comic_xieemanhua|
+|    3320|        comic_manwei| |    3319|  comic_xuanyimanhua|
+|    3321|        comic_guoman| |    3320|        comic_manwei|
+|    3322|        comic_altman| |    3321|        comic_guoman|
+|    3323|  comic_jinjidejuren| |    3322|        comic_altman|
+|    3324|         comic_works| |    3323|  comic_jinjidejuren|
+|    3801|houseliving_decro...| |    3324|         comic_works|
+|    3802|houseliving_fengshui| |    3801|houseliving_decro...|
+|    3803|houseliving_handc...| |    3802|houseliving_fengshui|
+|    3804| houseliving_jiadian| |    3803|houseliving_handc...|
+|    3805|   houseliving_plant| |    3804| houseliving_jiadian|
+|    3806|    houseliving_gear| |    3805|   houseliving_plant|
+|    4001|    lifestyle_coffee| |    3806|    houseliving_gear|
+|    4002|   lifestyle_fishing| |    4001|    lifestyle_coffee|
+|    4003|   lifestyle_jianfei| |    4002|   lifestyle_fishing|
+|    4004|   lifestyle_liqueur| |    4003|   lifestyle_jianfei|
+|    4005|   lifestyle_martial| |    4004|   lifestyle_liqueur|
+|    4006|     lifestyle_paobu| |    4005|   lifestyle_martial|
+|    4007|       lifestyle_tea| |    4006|     lifestyle_paobu|
+|    4008|      lifestyle_yoga| |    4007|       lifestyle_tea|
+|    4009|  lifestyle_aerobics| |    4008|      lifestyle_yoga|
+|    4010|     lifestyle_dance| |    4009|  lifestyle_aerobics|
+|    4011|     lifestyle_taiji| |    4010|     lifestyle_dance|
+|    4012|      lifestyle_wine| |    4011|     lifestyle_taiji|
+|    4013|   lifestyle_fitness| |    4012|      lifestyle_wine|
+|    4014|     lifestyle_taoyi| |    4013|   lifestyle_fitness|
+|    4015|   lifestyle_psdance| |    4014|     lifestyle_taoyi|
+|    4201|       science_space| |    4015|   lifestyle_psdance|
+|    4202|     science_popular| |    4201|       science_space|
+|    4203|     science_fiction| |    4202|     science_popular|
+|    4301|  photography_skills| |    4203|     science_fiction|
+|    4302|    photography_tool| |    4301|  photography_skills|
+|    4303|   photography_works| |    4302|    photography_tool|
+|    4401|     career_business| |    4303|   photography_works|
+|    4402|       career_common| |    4401|     career_business|
+|    4403|           career_hr| |    4402|       career_common|
+|    4404|       career_market| |    4403|           career_hr|
+|    4405|      career_venture| |    4404|       career_market|
+|    4406|         career_shop| |    4405|      career_venture|
+|    4601|     wedding_prepare| |    4406|         career_shop|
+|    4602|      wedding_photos| |    4601|     wedding_prepare|
+|    4701|        qipa-fashion| |    4602|      wedding_photos|
+|    4702|           qipa-tech| |    4701|        qipa-fashion|
+|    4703|            qipa-pet| |    4702|           qipa-tech|
+|    4704|            qipa-edu| |    4703|            qipa-pet|
+|    4705|           qipa-baby| |    4704|            qipa-edu|
+|    4706|           qipa-game| |    4705|           qipa-baby|
+|    4707|           qipa-cate| |    4706|           qipa-game|
++--------+--------------------+ |    4707|           qipa-cate|
+                                +--------+--------------------+
